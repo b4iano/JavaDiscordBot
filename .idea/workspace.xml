@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70df9c61-8e5f-426a-bd6f-03f7991accb5" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SevenSoft@serversoft7.database.windows.net" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SevenSoft@serversoft7.database.windows.net" type="feb32156:DbDataSourceImpl" />
+        <item name="SevenSoft: database" type="ccb7ac2a:MsImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SevenSoft@serversoft7.database.windows.net" type="feb32156:DbDataSourceImpl" />
+        <item name="SevenSoft: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="SevenSoft@serversoft7.database.windows.net" type="feb32156:DbDataSourceImpl" />
+        <item name="SevenSoft: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="desempenho: table" type="63ab2ba1:MsImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/commands/cmdCPU.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="25" column="62" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#executed#0;class#cmdCPU#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/commands/cmdAlerts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#executed#0;class#cmdAlerts#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/core/DataBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#getDBConnection#0;class#DataBase#0" />
+                <element signature="method#selectRecordsFromDbUserTable#0;class#DataBase#0" />
+                <element signature="method#insertRecordIntoTable#0;class#DataBase#0" />
+                <element signature="method#getInfoCPU#0;class#DataBase#0" />
+                <element signature="method#getInfoRAM#0;class#DataBase#0" />
+                <element signature="method#getInfoDisk#0;class#DataBase#0" />
+                <element signature="method#getTemperaturaCpu#0;class#DataBase#0" />
+                <element signature="method#codeUser#0;class#DataBase#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/core/Database2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+              <folding>
+                <element signature="method#getDBConnection#0;class#Database2#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/SnoopyBot2.0/br/com/Main.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#2207#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>'</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/oshiservice/listeners/readyListener.java" />
+        <option value="$PROJECT_DIR$/src/com/oshiservice/core/Command.java" />
+        <option value="$PROJECT_DIR$/src/com/oshiservice/utils/UTILS.java" />
+        <option value="$PROJECT_DIR$/src/com/oshiservice/commands/cmdHelp.java" />
+        <option value="$PROJECT_DIR$/src/com/oshiservice/commands/cmdPing.java" />
+        <option value="$PROJECT_DIR$/src/com/oshiservice/core/dataBase.java" />
+        <option value="$PROJECT_DIR$/src/com/oshiservice/core/DATABASE.java" />
+        <option value="$PROJECT_DIR$/src/com/oshiservice/core/commandHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/oshiservice/commands/cmdSO.java" />
+        <option value="$PROJECT_DIR$/src/com/oshiservice/core/commandParser.java" />
+        <option value="$PROJECT_DIR$/src/com/oshiservice/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/oshiservice/core/messageListener.java" />
+        <option value="$PROJECT_DIR$/src/com/oshiservice/core/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/br/com/core/commandParser.java" />
+        <option value="$PROJECT_DIR$/src/br/com/commands/cmdEasterEgg01.java" />
+        <option value="974ea9d7-8803-41e2-8436-e0fe4269e7a7/database/SevenSoft/schema/dbo/table/components.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/eaae1965-dc06-4279-9fed-3111d3dcb80c/console.sql" />
+        <option value="$PROJECT_DIR$/src/br/com/commands/cmdHardware.java" />
+        <option value="$PROJECT_DIR$/src/br/com/commands/cmdSO.java" />
+        <option value="$PROJECT_DIR$/src/br/com/commands/cmdHelp.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/br/com/commands/cmdSetID.java" />
+        <option value="$PROJECT_DIR$/src/br/com/commands/cmdPCInfo.java" />
+        <option value="$PROJECT_DIR$/src/br/com/commands/cmdRAM.java" />
+        <option value="$PROJECT_DIR$/src/br/com/commands/cmdCPU.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/974ea9d7-8803-41e2-8436-e0fe4269e7a7/console.sql" />
+        <option value="$PROJECT_DIR$/src/br/com/commands/cmdDisk.java" />
+        <option value="$PROJECT_DIR$/src/br/com/utils/UTILS.java" />
+        <option value="$PROJECT_DIR$/src/br/com/commands/cmdAlerts.java" />
+        <option value="$PROJECT_DIR$/src/br/com/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/com/core/DataBase.java" />
+        <option value="$PROJECT_DIR$/src/br/com/core/Database2.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SnoopyBot2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SnoopyBot2.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SnoopyBot2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SnoopyBot2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SnoopyBot2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SnoopyBot2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SnoopyBot2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SnoopyBot2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="SnoopyBot2.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SnoopyBot2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SnoopyBot2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="SnoopyBot2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SnoopyBot2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SnoopyBot2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="SnoopyBot2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SnoopyBot2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SnoopyBot2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="SnoopyBot2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="br" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="azure" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558398713980" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="GenericSQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.commands" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.Main" />
+      <module name="SnoopyBot2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.oshiservice.Main" />
+      <module name="SnoopyBot2.0" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SearchEverywhereConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="TopHitSEContributor" />
+      <filtered-out-file-type name="RecentFilesSEContributor" />
+      <filtered-out-file-type name="ClassSearchEverywhereContributor" />
+      <filtered-out-file-type name="FileSearchEverywhereContributor" />
+      <filtered-out-file-type name="SymbolSearchEverywhereContributor" />
+      <filtered-out-file-type name="RunConfigurationsSEContributor" />
+      <filtered-out-file-type name="ActionSearchEverywhereContributor" />
+      <filtered-out-file-type name="YAMLKeysSearchEverywhereContributor" />
+    </file-type-list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70df9c61-8e5f-426a-bd6f-03f7991accb5" name="Default Changelist" comment="" />
+      <created>1551210387381</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551210387381</updated>
+      <workItem from="1551210401940" duration="9348000" />
+      <workItem from="1551221666853" duration="178000" />
+      <workItem from="1553178896735" duration="5849000" />
+      <workItem from="1553195092851" duration="1666000" />
+      <workItem from="1553197380291" duration="2000" />
+      <workItem from="1553220423058" duration="2503000" />
+      <workItem from="1553281749079" duration="1787000" />
+      <workItem from="1553290464001" duration="8645000" />
+      <workItem from="1553537767792" duration="229000" />
+      <workItem from="1553542805767" duration="25000" />
+      <workItem from="1553548016790" duration="2424000" />
+      <workItem from="1553717182560" duration="503000" />
+      <workItem from="1553719284997" duration="2096000" />
+      <workItem from="1553798342632" duration="389000" />
+      <workItem from="1553807102810" duration="53000" />
+      <workItem from="1553817443090" duration="557000" />
+      <workItem from="1553894868255" duration="5657000" />
+      <workItem from="1554153083031" duration="615000" />
+      <workItem from="1554252800931" duration="31000" />
+      <workItem from="1554492487177" duration="10057000" />
+      <workItem from="1554576926350" duration="223000" />
+      <workItem from="1554590166047" duration="172000" />
+      <workItem from="1554754194024" duration="17000" />
+      <workItem from="1557175297926" duration="5658000" />
+      <workItem from="1557344741616" duration="526000" />
+      <workItem from="1557519855631" duration="4423000" />
+      <workItem from="1557590882939" duration="22000" />
+      <workItem from="1557877408478" duration="436000" />
+      <workItem from="1557964889393" duration="429000" />
+      <workItem from="1558014609738" duration="56000" />
+      <workItem from="1558019569231" duration="592000" />
+      <workItem from="1558024629911" duration="3387000" />
+      <workItem from="1558047130819" duration="1279000" />
+      <workItem from="1558101222693" duration="1477000" />
+      <workItem from="1558395200839" duration="39000" />
+      <workItem from="1558395591589" duration="2292000" />
+      <workItem from="1558470132645" duration="2321000" />
+      <workItem from="1559053551981" duration="6447000" />
+      <workItem from="1559064542751" duration="1728000" />
+      <workItem from="1559088745860" duration="884000" />
+      <workItem from="1559134992171" duration="660000" />
+      <workItem from="1559142442736" duration="4724000" />
+      <workItem from="1559150936188" duration="1895000" />
+      <workItem from="1559158838587" duration="829000" />
+      <workItem from="1559170437764" duration="3439000" />
+      <workItem from="1559221410445" duration="6553000" />
+      <workItem from="1559237160624" duration="3111000" />
+      <workItem from="1559247402176" duration="888000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="107121000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2549168" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49924356" weight="0.32569557" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32569557" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3289689" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Database" order="6" weight="0.31770045" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24962178" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25113463" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49924356" weight="0.32569557" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32569557" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3289689" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Database" order="6" weight="0.31770045" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.24962178" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24962178" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/Downloads/OshiServiceBot/JDA/JDA-3.8.3_460-withDependencies.jar!/net/dv8tion/jda/core/hooks/ListenerAdapter.class" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/commands/cmdPing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="5" selection-start-line="5" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/commands/cmdEasterEgg01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://974ea9d7-8803-41e2-8436-e0fe4269e7a7/database/SevenSoft/schema/dbo/table/components.sql" />
+    <entry file="uml://JAVA/br.com.commands">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>br.com.commands</OriginalElement>
+          <nodes>
+            <node x="" y="">br.com.commands.cmdEasterEgg01</node>
+            <node x="" y="">br.com.commands.cmdHelp</node>
+            <node x="" y="">br.com.commands.cmdSO</node>
+            <node x="" y="">br.com.commands.cmdSetID</node>
+            <node x="" y="">br.com.commands.cmdPing</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="114.0" y="126.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-SnoopyBot">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-SnoopyBot</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">mdl-SnoopyBot</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-216.0" y="-25.0" />
+          <SelectedNodes>
+            <node>mdl-SnoopyBot</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">oracle</node>
+            <node x="" y="">org</node>
+            <node x="" y="">microsoft</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">gnu</node>
+            <node x="" y="">br</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">okhttp3</node>
+            <node x="" y="">okio</node>
+            <node x="" y="">club</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">javafx</node>
+            <node x="" y="">natives</node>
+            <node x="" y="">net</node>
+            <node x="" y="">tomp2p</node>
+            <node x="" y="">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="263.0" y="287.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/br.com">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>br.com</OriginalElement>
+          <nodes>
+            <node x="" y="">br.com.core</node>
+            <node x="" y="">br.com.commands</node>
+            <node x="" y="">br.com.listeners</node>
+            <node x="" y="">br.com.Main</node>
+            <node x="" y="">br.com.utils</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="134.0" y="128.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/eaae1965-dc06-4279-9fed-3111d3dcb80c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://974ea9d7-8803-41e2-8436-e0fe4269e7a7/database/SevenSoft/schema/dbo/table/components" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/commands/cmdHardware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://974ea9d7-8803-41e2-8436-e0fe4269e7a7/database/SevenSoft/schema/dbo/table/software" />
+    <entry file="das://974ea9d7-8803-41e2-8436-e0fe4269e7a7/database/SevenSoft/schema/dbo/table/Usuario" />
+    <entry file="jar://$PROJECT_DIR$/JDA/JDA-3.8.3_460-withDependencies.jar!/net/dv8tion/jda/core/requests/WebSocketClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="685" selection-start-line="685" selection-end-line="685" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/JDA/JDA-3.8.3_460-withDependencies.jar!/net/dv8tion/jda/core/handle/SocketHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/JDA/JDA-3.8.3_460-withDependencies.jar!/net/dv8tion/jda/core/handle/MessageCreateHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/JDA/JDA-3.8.3_460-withDependencies.jar!/net/dv8tion/jda/core/hooks/InterfacedEventManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/JDA/JDA-3.8.3_460-withDependencies.jar!/net/dv8tion/jda/core/hooks/ListenerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="1105" selection-start-line="1105" selection-end-line="1105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://974ea9d7-8803-41e2-8436-e0fe4269e7a7/database/SevenSoft/schema/dbo/table/hardware">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="42d7dd86-f20e-47c8-aaeb-9d61f2549153">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://974ea9d7-8803-41e2-8436-e0fe4269e7a7/database/SevenSoft/schema/dbo/table/Username">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b45a1083-ea9b-4f0a-9751-55cf9d0d98d7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/commands/cmdSetID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="71" selection-start-line="32" selection-start-column="71" selection-end-line="32" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="method#executed#0;class#cmdSetID#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/core/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/commands/cmdHelp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="97" selection-start-line="21" selection-start-column="97" selection-end-line="21" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/commands/cmdPCInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="68" lean-forward="true" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1366#1367#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/commands/cmdRAM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#executed#0;class#cmdRAM#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://974ea9d7-8803-41e2-8436-e0fe4269e7a7/database/SevenSoft/schema/dbo/table/maquina">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d8a2fc21-9028-4c7d-92fd-4c80545728ae">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/974ea9d7-8803-41e2-8436-e0fe4269e7a7/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/commands/cmdDisk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#action#0;class#cmdDisk#0" />
+            <element signature="method#executed#0;class#cmdDisk#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/core/messageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/core/commandParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-381">
+          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/listeners/readyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://974ea9d7-8803-41e2-8436-e0fe4269e7a7/database/SevenSoft/schema/dbo/table/desempenho">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="d8a2fc21-9028-4c7d-92fd-4c80545728ae">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/utils/UTILS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <folding>
+            <element signature="e#82971#82972#0" expanded="true" />
+            <element signature="e#83020#83021#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/core/commandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/commands/cmdCPU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#executed#0;class#cmdCPU#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/commands/cmdAlerts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#executed#0;class#cmdAlerts#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/core/DataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getDBConnection#0;class#DataBase#0" />
+            <element signature="method#selectRecordsFromDbUserTable#0;class#DataBase#0" />
+            <element signature="method#insertRecordIntoTable#0;class#DataBase#0" />
+            <element signature="method#getInfoCPU#0;class#DataBase#0" />
+            <element signature="method#getInfoRAM#0;class#DataBase#0" />
+            <element signature="method#getInfoDisk#0;class#DataBase#0" />
+            <element signature="method#getTemperaturaCpu#0;class#DataBase#0" />
+            <element signature="method#codeUser#0;class#DataBase#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/core/Database2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <element signature="method#getDBConnection#0;class#Database2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/SnoopyBot2.0/br/com/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#2207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SnoopyBot2.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mssql-jdbc-6.1.3.jre8-preview2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

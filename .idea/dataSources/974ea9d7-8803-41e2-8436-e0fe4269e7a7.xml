@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="SevenSoft@serversoft7.database.windows.net">
+  <database-model serializer="dbm" dbms="AZURE" family-id="AZURE" format-version="4.15">
+    <root id="1">
+      <ServerVersion>12.0.1400</ServerVersion>
+      <Dbms>AZURE</Dbms>
+    </root>
+    <database id="2" parent="1" name="SevenSoft">
+      <ObjectId>5</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>5.43544/E3C36F58-A28B-4186-9376-20689E6EA102@serversoft7</Fingerprint>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+    </database>
+    <schema id="4" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="5" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2019-05-29.12:09:17.490</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="15" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="17" parent="14" name="Username">
+      <ObjectId>1554104577</ObjectId>
+      <CreatedTimestamp>2019-05-28.20:23:41.903</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-29.12:09:15.240</ModifiedTimestamp>
+    </table>
+    <table id="18" parent="14" name="desempenho">
+      <ObjectId>1378103950</ObjectId>
+      <CreatedTimestamp>2019-05-28.20:14:17.310</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.21:17:22.180</ModifiedTimestamp>
+    </table>
+    <table id="19" parent="14" name="hardware">
+      <ObjectId>1346103836</ObjectId>
+      <CreatedTimestamp>2019-05-28.20:14:04.043</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.20:55:38.520</ModifiedTimestamp>
+    </table>
+    <table id="20" parent="14" name="maquina">
+      <ObjectId>1634104862</ObjectId>
+      <CreatedTimestamp>2019-05-28.20:31:26.500</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-29.10:18:06.950</ModifiedTimestamp>
+    </table>
+    <table id="21" parent="14" name="nivel_acesso">
+      <ObjectId>978102525</ObjectId>
+      <CreatedTimestamp>2019-05-06.11:51:55.263</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.20:44:35.340</ModifiedTimestamp>
+    </table>
+    <table id="22" parent="14" name="processo">
+      <ObjectId>1410104064</ObjectId>
+      <CreatedTimestamp>2019-05-28.20:14:28.477</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.21:20:18.600</ModifiedTimestamp>
+    </table>
+    <column id="23" parent="17" name="id_usuario">
+      <Position>1</Position>
+      <SequenceIdentity>70+7</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="24" parent="17" name="nome">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="25" parent="17" name="usuario">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="26" parent="17" name="email">
+      <Position>4</Position>
+      <DataType>varchar(255 char)|0s</DataType>
+    </column>
+    <column id="27" parent="17" name="senha">
+      <Position>5</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="28" parent="17" name="fk_idAcesso">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="29" parent="17" name="id_discord">
+      <Position>7</Position>
+      <DataType>varchar(22 char)|0s</DataType>
+    </column>
+    <index id="30" parent="17" name="PK__usuario__4E3E04AD4EC45152">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_usuario</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="31" parent="17" name="PK__usuario__4E3E04AD4EC45152">
+      <ObjectId>1570104634</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-28.20:23:41.903</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.20:23:41.903</ModifiedTimestamp>
+      <ColNames>id_usuario</ColNames>
+      <UnderlyingIndexName>PK__usuario__4E3E04AD4EC45152</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="32" parent="17" name="FK__usuario__fk_idAc__65370702">
+      <ObjectId>1698105090</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-28.20:44:35.340</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.20:44:35.340</ModifiedTimestamp>
+      <ColNames>fk_idAcesso</ColNames>
+      <RefTableId>978102525</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>nivel_acesso</RefTableName>
+      <RefKeyName>PK__nivel_ac__CAAB807D4F402275</RefKeyName>
+      <RefColNames>idAcesso</RefColNames>
+    </foreign-key>
+    <column id="33" parent="18" name="id_Desempenho">
+      <Position>1</Position>
+      <SequenceIdentity>100</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="34" parent="18" name="cpu_disponivel">
+      <Position>2</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="35" parent="18" name="cpu_em_uso">
+      <Position>3</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="36" parent="18" name="temperatura_cpu">
+      <Position>4</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="37" parent="18" name="memoria_ram_disponivel">
+      <Position>5</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="38" parent="18" name="memoria_ram_em_uso_cpu">
+      <Position>6</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="39" parent="18" name="disco_em_uso_hd">
+      <Position>7</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="40" parent="18" name="disco_livre_hd">
+      <Position>8</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="41" parent="18" name="temperatura_gpu">
+      <Position>9</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="42" parent="18" name="memoria_em_uso_gpu">
+      <Position>10</Position>
+      <DataType>float|0s</DataType>
+    </column>
+    <column id="43" parent="18" name="fk_idSoft">
+      <Position>11</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="44" parent="18" name="PK__desempen__E7CBE884768CB508">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_Desempenho</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="45" parent="18" name="PK__desempen__E7CBE884768CB508">
+      <ObjectId>1394104007</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-28.20:14:17.313</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.20:14:17.313</ModifiedTimestamp>
+      <ColNames>id_Desempenho</ColNames>
+      <UnderlyingIndexName>PK__desempen__E7CBE884768CB508</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="46" parent="18" name="FK__desempenh__fk_id__671F4F74">
+      <ObjectId>1730105204</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-28.21:17:22.180</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.21:17:22.180</ModifiedTimestamp>
+      <ColNames>fk_idSoft</ColNames>
+      <RefTableId>1634104862</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>maquina</RefTableName>
+      <RefKeyName>PK__software__5DF1CF20675070E3</RefKeyName>
+      <RefColNames>id_soft</RefColNames>
+    </foreign-key>
+    <column id="47" parent="19" name="id_Hardware">
+      <Position>1</Position>
+      <SequenceIdentity>100</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="19" name="nome_processador">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="49" parent="19" name="modelo_processador">
+      <Position>3</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="50" parent="19" name="fabricante">
+      <Position>4</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="51" parent="19" name="sistema_operacional">
+      <Position>5</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="52" parent="19" name="processadores_logico">
+      <Position>6</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="53" parent="19" name="processadores_fisico">
+      <Position>7</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="54" parent="19" name="memoria_total">
+      <Position>8</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="55" parent="19" name="placa_video">
+      <Position>9</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="56" parent="19" name="fabricante_gpu">
+      <Position>10</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="57" parent="19" name="tipo_memoria_gpu">
+      <Position>11</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="58" parent="19" name="memoria_total_gpu">
+      <Position>12</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="59" parent="19" name="gpu_clock">
+      <Position>13</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="60" parent="19" name="fk_idSoft">
+      <Position>14</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="61" parent="19" name="PK__hardware__78C0AD43F58DB2E6">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_Hardware</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="62" parent="19" name="PK__hardware__78C0AD43F58DB2E6">
+      <ObjectId>1362103893</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-28.20:14:04.043</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.20:14:04.043</ModifiedTimestamp>
+      <ColNames>id_Hardware</ColNames>
+      <UnderlyingIndexName>PK__hardware__78C0AD43F58DB2E6</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="63" parent="19" name="FK__hardware__fk_idS__662B2B3B">
+      <ObjectId>1714105147</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-28.20:55:38.520</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.20:55:38.520</ModifiedTimestamp>
+      <ColNames>fk_idSoft</ColNames>
+      <RefTableId>1634104862</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>maquina</RefTableName>
+      <RefKeyName>PK__software__5DF1CF20675070E3</RefKeyName>
+      <RefColNames>id_soft</RefColNames>
+    </foreign-key>
+    <column id="64" parent="20" name="id_soft">
+      <Position>1</Position>
+      <SequenceIdentity>7+7</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="20" name="nome_soft">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="66" parent="20" name="fk_idusuario">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="67" parent="20" name="PK__software__5DF1CF20675070E3">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_soft</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="68" parent="20" name="UQ__software__2523CF1FFB4A36AA">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>nome_soft</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="69" parent="20" name="PK__software__5DF1CF20675070E3">
+      <ObjectId>1650104919</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-28.20:31:26.500</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.20:31:26.500</ModifiedTimestamp>
+      <ColNames>id_soft</ColNames>
+      <UnderlyingIndexName>PK__software__5DF1CF20675070E3</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="70" parent="20" name="UQ__software__2523CF1FFB4A36AA">
+      <ObjectId>1666104976</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-28.20:31:26.500</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.20:31:26.500</ModifiedTimestamp>
+      <ColNames>nome_soft</ColNames>
+      <UnderlyingIndexName>UQ__software__2523CF1FFB4A36AA</UnderlyingIndexName>
+    </key>
+    <foreign-key id="71" parent="20" name="FK__software__fk_idu__6442E2C9">
+      <ObjectId>1682105033</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-28.20:31:50.300</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.20:31:50.300</ModifiedTimestamp>
+      <ColNames>fk_idusuario</ColNames>
+      <RefTableId>1554104577</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Username</RefTableName>
+      <RefKeyName>PK__usuario__4E3E04AD4EC45152</RefKeyName>
+      <RefColNames>id_usuario</RefColNames>
+    </foreign-key>
+    <column id="72" parent="21" name="idAcesso">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="73" parent="21" name="tipo_acesso">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <index id="74" parent="21" name="PK__nivel_ac__CAAB807D4F402275">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>idAcesso</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="75" parent="21" name="UQ__nivel_ac__A62F8BEC68E6AF84">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>tipo_acesso</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="76" parent="21" name="PK__nivel_ac__CAAB807D4F402275">
+      <ObjectId>994102582</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-06.11:51:55.263</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-06.11:51:55.263</ModifiedTimestamp>
+      <ColNames>idAcesso</ColNames>
+      <UnderlyingIndexName>PK__nivel_ac__CAAB807D4F402275</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="77" parent="21" name="UQ__nivel_ac__A62F8BEC68E6AF84">
+      <ObjectId>1010102639</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-06.11:51:55.263</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-06.11:51:55.263</ModifiedTimestamp>
+      <ColNames>tipo_acesso</ColNames>
+      <UnderlyingIndexName>UQ__nivel_ac__A62F8BEC68E6AF84</UnderlyingIndexName>
+    </key>
+    <column id="78" parent="22" name="id_processo">
+      <Position>1</Position>
+      <SequenceIdentity>100</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="79" parent="22" name="nome_processo">
+      <Position>2</Position>
+      <DataType>varchar(50 char)|0s</DataType>
+    </column>
+    <column id="80" parent="22" name="pid">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="81" parent="22" name="processador_cpu">
+      <Position>4</Position>
+      <DataType>varchar(10 char)|0s</DataType>
+    </column>
+    <column id="82" parent="22" name="memoria">
+      <Position>5</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="83" parent="22" name="fk_idSoft">
+      <Position>6</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="84" parent="22" name="PK__processo__3C7ED8A772D3F6FD">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_processo</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="85" parent="22" name="PK__processo__3C7ED8A772D3F6FD">
+      <ObjectId>1426104121</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-28.20:14:28.480</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.20:14:28.480</ModifiedTimestamp>
+      <ColNames>id_processo</ColNames>
+      <UnderlyingIndexName>PK__processo__3C7ED8A772D3F6FD</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="86" parent="22" name="FK__processo__fk_idS__681373AD">
+      <ObjectId>1746105261</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2019-05-28.21:20:18.600</CreatedTimestamp>
+      <ModifiedTimestamp>2019-05-28.21:20:18.600</ModifiedTimestamp>
+      <ColNames>fk_idSoft</ColNames>
+      <RefTableId>1634104862</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>maquina</RefTableName>
+      <RefKeyName>PK__software__5DF1CF20675070E3</RefKeyName>
+      <RefColNames>id_soft</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>
